@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
 }
-.header, .footer, .content {
+.header, .footer, .content, .quotes {
     padding: 0% 15%;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* height: 100vh; */
 }
+
+/* Header */
+/*#region*/ 
 
 .topbar {
     display: flex;
     justify-content: space-around;
     gap: 16px;
     padding: 16px 0;
-
 }
 
 .logo {
@@ -53,4 +56,38 @@
 img {
     border-radius: 5%;
     width: 100%;
+}
+
+/*#endregion*/
+
+
+.content{
+    padding: 50px 0;
+    display: flex;
+    align-self: center;
+}
+
+.items {
+    margin-top: 50px;
+    flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.item {
+    flex-basis: 350px;
+    border-bottom: 2px solid grey;
+}
+
+.item img {
+    aspect-ratio: 1/1;
+    width: 80%;
+    /* height: 250px; */
+    object-fit: cover;
+    margin-bottom: 15px;
 }
