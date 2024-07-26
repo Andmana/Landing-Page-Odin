@@ -49,7 +49,7 @@
     justify-content: space-around;
     align-items: flex-start;
 
-    gap: 24px;}
+    gap: 12px;}
 
 .placeholder {
     flex-grow: 3;
@@ -126,4 +126,8 @@
 
 .footer .logo {
     flex-basis: 500px;
+}
+
+.copy-right {
+    padding: 30px 15%;
 }

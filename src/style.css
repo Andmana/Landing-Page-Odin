@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
 }
 
-.header, .footer {
+.header, .footer, .copy-right {
     background-color: #1F2937;
 }
 
@@ -62,10 +62,15 @@ a.button {
     font-weight: lighter;
     font-size: 36px;
     text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 .qname {
     font-weight: bold;
     color: #1f2937;
     text-align: end;
+}
+
+.copy-right {
+    text-align: center;
 }
