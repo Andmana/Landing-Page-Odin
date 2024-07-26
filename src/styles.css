@@ -68,24 +68,25 @@
 /* #region */
 
 .content{
-    padding: 50px 0;
+    padding: 50px 15%;
     align-self: center;
 }
 
 .items {
-    margin-top: 30px;
+    margin-top: 40px;
     flex: 1;
 
     display: flex;
     flex-wrap: wrap;
 
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 8px;
 }
 
 .item {
-    flex-basis: 350px;
+    flex: 1;
+    flex-basis: 300px;
 
     padding-bottom: 20px;
     border-bottom: 10px solid grey;
@@ -94,9 +95,13 @@
 
 .item img {
     aspect-ratio: 1/1;
-    width: 80%;
+    width: 90%;
     object-fit: cover;
     margin-bottom: 15px;
+}
+
+.img-text{
+    padding: 0 5%;
 }
 
 /* #endregion */
