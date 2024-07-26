@@ -35,13 +35,13 @@ a {
     font-size: 18px;
 }
 
-button {
-    background-color: #3882f6;
+a.button {
+    background-color: rgba(95, 95, 138, 0.075);
     color: white;
     font-weight: bold;
     border-radius: 8px;
     padding: 8px 24px;
-    border: 1px solid white;
+    border: 1px outset white;
 }
 
 .content {
