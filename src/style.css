@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
 }
 
@@ -12,20 +12,22 @@ img {
 }
 
 a {
-  text-decoration: none;
-  color: #F9FAF8;
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .logo {
-    font-weight: bolder;
-    font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 32px; 
 }
 
 .hero {
     font-weight: 1000   ;
     font-size: 48px;
     color: #F9FAF8;
+
 }
 
 .hero-text {
@@ -66,8 +68,4 @@ button {
     font-weight: bold;
     color: #1f2937;
     text-align: end;
-}
-
-.footer{
-    background-color: #3882f6;
 }
