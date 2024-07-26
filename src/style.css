@@ -1,11 +1,14 @@
 body {
     font-family: Roboto, sans-serif;
+    line-height: 1.6;
 }
 
-/* Header */
-/* #region */
-.header, .footer {
+.header {
     background-color: #1F2937;
+}
+
+img {
+    border-radius: 8px;
 }
 
 a {
@@ -34,13 +37,10 @@ button {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    border-radius: 24px;
+    border-radius: 8px;
     padding: 8px 24px;
+    border: 1px solid white;
 }
-
-/* #endregion */
-
-/* Content */
 
 .content {
     text-align: center;
@@ -52,4 +52,22 @@ button {
     font-size: 18px;
     font-weight: 100;
     color: grey;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #454647;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+}
+
+.qname {
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
+}
+
+.footer{
+    background-color: #3882f6;
 }
